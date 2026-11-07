@@ -1,12 +1,11 @@
 // ignore_for_file: camel_case_types, avoid_unnecessary_containers, avoid_print, unreachable_switch_case, unused_import
 
 import 'package:flutter/material.dart';
-import 'package:dropdown_button2/dropdown_button2.dart';
-import 'package:iamjamaicaradio/about.dart';
-import 'package:iamjamaicaradio/contact.dart';
+import 'package:iamjamaicaradio/pages/about.dart';
+import 'package:iamjamaicaradio/pages/contact.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
-
+/*
 class drawerNavPage extends StatefulWidget {
   const drawerNavPage({super.key});
 
@@ -40,10 +39,6 @@ class dropdownmenuState extends State<drawerNavPage> {
                 child: MenuItems.buildItem(item),
               ),
             ),
-            
-
-
-            
           ],
           onChanged: (value) {
             MenuItems.onChanged(context, value! as MenuItem);
@@ -113,10 +108,8 @@ abstract class MenuItems {
             ),
           ),
         ),
-       
       ],
     );
-  
   }
 
   static void onChanged(BuildContext context, MenuItem item) {
@@ -145,3 +138,4 @@ abstract class MenuItems {
     }
   }
 }
+*/
